@@ -17,10 +17,10 @@ function getUserChoice() {
     return userChoice;
 }
 
-function game(playerSelection, computerSelection) {
+function playRound(playerSelection, computerSelection) {
     
 }
 
 playerSelection = getUserChoice();
 computerSelection = getComputerChoice();
-game(playerSelection, computerSelection);
+playRound(playerSelection, computerSelection);

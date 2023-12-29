@@ -8,3 +8,14 @@ function getComputerChoice() {
         console.log("Scissors.")
     }
 }
+
+function getUserChoice() {
+    let userChoice = prompt("Rock, Paper, or Scissors?")
+    return userChoice
+}
+
+function game(playerSelection, computerSelection) {
+
+}
+
+
